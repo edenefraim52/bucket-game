@@ -1,0 +1,96 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game {
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-style: solid;
+    position :relative;
+}
+
+#buttom-line {
+    width: 100%;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+
+#bucket {
+    width: 110px;
+    height: 80px;
+    position: absolute;
+    bottom: 15px;
+    left: 300px;
+    z-index:1;
+}
+
+#nextNumber {
+    text-align: left;
+    font-size: 25px;
+    color: black;
+    border: solid;
+    border-color: red;
+    position: absolute;
+    font-family: Calibri;
+    left: 10px;
+    bottom: 450px;
+}
+
+.numbers {
+    position:absolute;
+    top: 18%;
+    height: 5%;
+    width: 2%;
+    color: black;
+    border-radius: 50%;
+}
+*
+.num1{
+    width: 30px;
+    height: 30px;   
+    position:absolute;
+    left: 200px;
+    font-size:xx-large
+}
+
+.num2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 350px;
+    font-size:xx-large
+}
+
+.num3 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 500px;
+    font-size: xx-large
+}
+
+
+#startGame {
+    border: 0;
+    position: absolute;
+    height: 20%;
+    width: 30%;
+    background-color: #507bc6;
+    color: white;
+    top: 30%;
+    font-size: 35px;
+    cursor: pointer;
+    left: 35%;
+}
